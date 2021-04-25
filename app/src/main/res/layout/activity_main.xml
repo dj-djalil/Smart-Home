@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:padding="50dp"
+
+         android:src="@drawable/ic_house"
+          />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Smart Home"
+         android:gravity="center"
+         android:textSize="20dp"
+         android:padding="15px"
+         android:textColor="@android:color/black"
+         android:textStyle="bold"/>
+<!--         android:shadowDx="10"-->
+<!--         android:shadowDy="10"-->
+<!--         android:shadowRadius="20"-->
+<!--         android:shadowColor="@android:color/holo_red_dark" -->
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="40dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginLeft="40dp"
+         android:layout_marginRight="40dp"
+         android:text="Sign In"
+         android:textSize="16sp"
+         android:textStyle="bold"
+         android:textColor="@android:color/white"
+         android:background="@drawable/background" />// dans @drawble j'ai fait mon personel background
+         />
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="40dp"
+         android:layout_marginLeft="40dp"
+         android:layout_marginRight="40dp"
+         android:text="Register"
+         android:textSize="16sp"
+         android:textStyle="bold"
+         android:textColor="@android:color/white"
+         android:background="@drawable/background"
+         />
+
+</LinearLayout>

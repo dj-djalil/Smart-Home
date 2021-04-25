@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item>
+     <shape android:shape="rectangle" > // la form de button
+         <corners android:radius="20dp"/> //  l'angle du button
+         <solid android:color="@color/button"/> // le cadre du button
+     </shape>
+ </item>
+</selector>
